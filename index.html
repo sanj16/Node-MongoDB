@@ -7,5 +7,30 @@
 </head>
 <body>
     <h1>Hello, Truly IAS</h1>
+    <h2>Add Question</h2>
+    <form action="/submit-question" method="post" enctype="multipart/form-data">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="questionText">Question Text:</label>
+        <textarea id="questionText" name="questionText"></textarea><br><br>
+
+        <label for="answer">Answer:</label>
+        <textarea id="answer" name="answer"></textarea><br><br>
+
+        <label for="image">Image Upload:</label>
+        <input type="file" id="image" name="image"><br><br>
+
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url"><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject"><br><br>
+
+        <label for="topic">Topic:</label>
+        <input type="text" id="topic" name="topic"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
